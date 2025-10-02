@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Opdracht 3.2 Dylano Nietveld 9015493</title>
+</head>
+<body>
+  <h1>Boekingsformulier</h1>
+
+  <form>
+    <label>Voornaam*
+      <input type="text" name="voornaam" required>
+    </label>
+
+    <label>Achternaam*
+      <input type="text" name="achternaam" required>
+    </label>
+
+    <p>Geslacht*</p>
+    <label><input type="radio" name="geslacht" value="man" checked> Man</label>
+    <label><input type="radio" name="geslacht" value="vrouw"> Vrouw</label>
+    <label><input type="radio" name="geslacht" value="anders"> Anders</label>
+
+    <label>Straat + huisnummer*
+      <input type="text" name="adres" required>
+    </label>
+
+    <label>Postcode*
+      <input type="text" name="postcode" required>
+    </label>
+
+    <label>Stad*
+      <input type="text" name="stad" required>
+    </label>
+
+    <label>Land*
+      <input type="text" name="land" required>
+    </label>
+
+    <label>BSN-nummer* 
+      <input type="text" name="bsn" required maxlength="9">
+    </label>
+
+    <label>Vakantieland*
+      <select name="vakantieland" required>
+        <option value="">-- Kies --</option>
+        <option>Nederland</option>
+        <option>Spanje</option>
+        <option>Frankrijk</option>
+        <option>Turkije</option>
+      </select>
+    </label>
+
+    <label>Datum van vertrek* 
+      <input type="date" name="vertrek" required>
+    </label>
+
+    <label>Datum van terugkomst* 
+      <input type="date" name="terug" required>
+    </label>
+
+    <label>Aantal reisgenoten (0–4)*
+      <input type="text" name="reisgenoten" required>
+    </label>
+
+    <label>E-mail* 
+      <input type="email" name="email" required>
+    </label>
+
+    <label>Wachtwoord (account)*
+      <input type="password" name="wachtwoord" required>
+    </label>
+
+    <label>Geboortemaand (optioneel)
+      <input type="month" name="geboortemaand">
+    </label>
+
+    <button type="submit">Boek nu</button>
+  </form>
+</body>
+</html>
