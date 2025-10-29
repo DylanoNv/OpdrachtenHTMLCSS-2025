@@ -40,6 +40,7 @@ main {
     margin-bottom: 20px;
     padding: 20px;
 }
+
 /*PC*/
 .block1 { background-color: #ffeb3b; }
 .block2 { background-color: #ff9800; }
@@ -54,7 +55,7 @@ main {
     }
 }
 
-/*mobiel*/
+/*Telefoon*/
 @media screen and (max-width: 767px) {
     .mobile-menu-icon {
         display: block;
